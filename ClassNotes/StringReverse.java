@@ -22,6 +22,7 @@ public class StringReverse
         String restOfString = str.substring( 1 );
         String restOfStringReversed = reverse( restOfString );
         
-        return restOfStringReversed + firstChar;
+        String strReversed = restOfStringReversed + firstChar;
+        return strReversed;
     }
 }
